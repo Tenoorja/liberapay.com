@@ -468,7 +468,6 @@ section.invoice-details {
 .notification {
     padding: 14px;
     text-align: center;
-    z-index: 10;
 }
 
 .notification-error {
@@ -494,6 +493,7 @@ section.invoice-details {
     left: 0;
     position: fixed;
     right: 0;
+    z-index: 10000;
 }
 
 .dropdown-hover {
